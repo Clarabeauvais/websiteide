@@ -1,0 +1,16 @@
+/******our vision******/
+@media (min-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/******* events *****/
+@media (min-width: 800px) {
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

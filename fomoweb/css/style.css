@@ -1,0 +1,124 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*********Generelt***********/
+
+h1 {
+  font-family: sora;
+  color: #f5f5f5;
+  font-weight: 100;
+  font-size: 5rem;
+  text-align: center; /**i midten**/
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: sora;
+  color: #f5f5f5;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+p {
+  font-family: sora;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+/*****lille logo i hjørnet****/
+
+.logo img {
+  width: 60px;
+  transform: scalex(1.5);
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*** link i oversigt ***/
+
+.oversigt a {
+  color: #f5f5f5;
+  font-family: "funnel display", "sora";
+}
+
+/** link i oversigt når du har besøgt det **/
+
+.oversigt a:visited {
+  color: #f5f5f5;
+}
+
+/** når musen er overlinket **/
+
+.oversigt a:hover {
+  color: #1fd2ff;
+}
+
+/** når du klikker **/
+.oversigt a:active {
+  color: rgb(16, 16, 110);
+}
+
+/****** blue gradient background image * center?***/
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("../imgs/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/******** forside *******/
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/****** fomo logo img ******/
+.hero img {
+  width: 80vw;
+  max-width: 550px;
+}
+
+/***** slogan på forside *******/
+.hero2 {
+  font-family: sora;
+  letter-spacing: -0.05em;
+  font-weight: 200;
+  color: white;
+  max-width: 550px;
+  font-style: italic; /**skrå skrift***/
+}
+
+/********** our vision ********/
+
+.pvision {
+  text-align: center;
+  display: flex;
+  max-width: 1000px;
+  line-height: 1.6;
+}
+
+.pvision2 {
+  text-align: center;
+  display: flex;
+  max-width: 1000px;
+  line-height: 1.6;
+  margin-top: 3rem;
+}
+
+/******** events *******/
